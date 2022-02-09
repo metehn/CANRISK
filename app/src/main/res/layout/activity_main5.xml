@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="360dp"
+        android:layout_height="44dp"
+        android:text="9.Have you ever given birth to a large baby weighing 4.1 kg or more? "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <RadioGroup
+        android:id="@+id/Main5_RadioGroup1"
+        android:layout_width="168dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139">
+
+        <RadioButton
+            android:id="@+id/radioButton23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radioButton24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No or don’t know" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="296dp"
+        android:layout_height="56dp"
+        android:text="SOME TYPES OF DIABETES RUN IN FAMILIES. "
+        android:textColor="#EF2A2A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView30"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        app:srcCompat="@drawable/right_arrow2" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="359dp"
+        android:layout_height="39dp"
+        android:text="10.Have any of your blood relatives ever been diagnosed with diabetes? "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <LinearLayout
+        android:layout_width="259dp"
+        android:layout_height="215dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.639">
+
+        <RadioButton
+            android:id="@+id/radioButton25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mother" />
+
+        <RadioButton
+            android:id="@+id/radioButton26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Father" />
+
+        <RadioButton
+            android:id="@+id/radioButton27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brothers/Sisters " />
+
+        <RadioButton
+            android:id="@+id/radioButton28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Children " />
+
+        <RadioButton
+            android:id="@+id/radioButton29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other " />
+
+        <RadioButton
+            android:id="@+id/radioButton30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No/don’t know " />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.932" />
+</androidx.constraintlayout.widget.ConstraintLayout>
